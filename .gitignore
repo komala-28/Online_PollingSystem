@@ -1,0 +1,16 @@
+# Ignore MySQL connector source
+src/main/webapp/WEB-INF/lib/mysql-connector-j-9.7.0/src/
+src/main/webapp/WEB-INF/lib/mysql-connector-j-9.7.0/
+
+# Ignore build files
+build/
+*.class
+*.war
+
+# Ignore Eclipse files
+.classpath
+.project
+.settings/
+
+# Ignore OS files
+.DS_Store
