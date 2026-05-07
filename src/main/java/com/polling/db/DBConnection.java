@@ -8,9 +8,9 @@ public class DBConnection {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/polling_db",  // ✅ fixed DB name
+                "jdbc:mysql://localhost:3306/polling_db", 
                 "root",
-                "keerthyreddy"  // ✅ your password
+                ""  // 👈 Clear this! Use empty quotes because your terminal didn't need a password.
             );
         } catch (Exception e) {
             e.printStackTrace();
